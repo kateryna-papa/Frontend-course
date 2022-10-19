@@ -1,0 +1,555 @@
+
+html{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    line-height: 1.2;
+    color: #222222;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* Header styles start */
+header{
+    background: #F9F6F5;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1240px;
+}
+
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_item{
+    margin-right: 40px;
+}
+.header_item2{
+    margin-right: 25px;
+}
+
+.header_item2:last-child{
+    margin-right: 0;
+}
+.header_link{
+    font-family: "Red Hat Display";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+    text-decoration: none;
+}
+/* Header styles end */
+
+/* Intro  styles start */
+.intro{
+    position: relative;
+    z-index: 0;
+    width: 1440px;
+    height: 685px;
+    padding-top: 108px;
+    background: #F9F6F5;
+}
+
+.pic-c {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.intro_title{
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 621px;
+    font-family: 'Red Hat Display';
+    font-size: 56px;
+    line-height: 70px;
+    color: #000000;
+}
+.intro_subtitle{
+    margin-bottom: 30px;
+    max-width: 516px;
+    font-family: 'Red Hat Display';
+    font-size: 20px;
+    line-height: 32px;
+    color: #555555;
+}
+
+input {
+    width: 326px;
+    height: 48px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+}
+
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.button {
+    font-family: "Red Hat Display";
+    background-color: #402F2C;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 1.33;
+    border: none;
+    position: absolute;
+    padding: 16px 32px;
+}
+
+.intro .search {
+    margin-bottom: 60px;
+}
+
+.search .button {
+    display: flex;
+    padding: 8px;
+    position: absolute;
+    left: 285px;
+    top: 50%;
+    margin-top: -16px;
+}
+
+.intro_slider {
+    position: absolute;
+    display: flex;
+    z-index: 10;
+    width: 145px;
+    height: 138px;
+    left: 643px;
+    top: 545px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f6f5;
+}
+
+.intro_slider .slide {
+    margin-left: 2em;
+}
+/* Intro styles end */
+
+/* Companies styles start */
+.companies .top {
+    margin-top: 130px;
+}
+.companies .bottom {
+    margin-bottom: 130px;
+}
+.companies hr {
+    width: 1240px;
+    border: 1px solid #eeeeee;
+    margin: 0 auto;
+}
+.companies img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.companies .companies_logo {
+    display: grid;
+    grid-template-columns: repeat(6, 18.5%);
+}
+/* Companies styles end */
+
+/* Products styles start */
+.products {
+    padding-bottom: 130px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.products h1 {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.info p {
+    color: #555555;
+    padding-bottom: 60px;
+    line-height: 32px;
+    font-size: 20px;
+    font-family: "Red Hat Display";
+    max-width: 714px;
+}
+
+.info a {
+    font-family: "Red Hat Display";
+    font-weight: 500;
+    font-size: 24px;
+    color: #222222;
+    text-decoration: underline;
+}
+
+.info a img {
+    display: inline-block;
+    position: relative;
+    margin-left: 12px;
+
+}
+
+.product {
+    display: flex;
+    gap: 42px;
+    justify-content: space-between;
+}
+
+.product_pic {
+    width: 600px;
+}
+
+.product_text {
+    border: 1px solid rgba(104, 90, 82, 0.19);
+    border-top: none;
+    padding: 20px 32px 32px 32px;
+}
+
+.product_text h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #222222;
+    margin-bottom: 16px;
+}
+
+.product_footer {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product_buttons {
+    display: flex;
+    gap: 24px;
+}
+
+.price {
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.07;
+    color: #222222;
+}
+
+
+.second_button {
+    font-family: 'Red Hat Display';
+    text-decoration: none;
+    background-color: white;
+    color: #402f2c;
+    padding: 16px 40px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0px 0px 0px 149px;
+    border: 1px solid rgba(104, 90, 82, 0.46);
+}
+/* Products styles end */
+
+/* Statistic styles start */
+
+.statistic {
+    background-color: #FDF8F5;
+    padding: 58px 0;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1070px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item h1 {
+    font-family: 'Red Hat Display';
+    display: inline-block;
+    font-weight: 700;
+    color: #222222;
+    border-bottom: 3px solid #222222;
+    font-size: 56px;
+    line-height: 70px;
+}
+
+.item_text {
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    font-size: 24px;
+    color: #555555;
+    margin-top: 30px;
+}
+/* Statistic styles end */
+
+/* Content styles start */
+.content {
+    padding: 130px 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 130px;
+    gap: 32px;
+}
+
+.top_img img {
+    max-width: none;
+}
+
+.top_text h1 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 70px;
+    max-width: 530px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.top_text p {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.top_text .button {
+    margin-top: 30px;
+}
+
+.content-bottom {
+    display: flex;
+    gap: 54px;
+    justify-content: space-between;
+}
+
+.bottom_img img {
+    max-width: none;
+}
+
+.bottom_text {
+    padding-top: 30px;
+}
+
+.bottom_text h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.33;
+    color: #222222;
+    margin-bottom: 10px;
+    font-family: 'Red Hat Display';
+}
+
+.rating {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 45px;
+}
+
+.bottom_text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    width: 608px;
+    font-family: 'Red Hat Display';
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.brackets::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -17px;
+    display: block;
+    width: 17px;
+    height: 14px;
+    background-image: url('../imgs/svg/bef.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.brackets::after {
+    content: '';
+    position: absolute;
+    bottom: 16px;
+    right: 167px;
+    display: block;
+    width: 17px;
+    height: 14px;
+    background-image: url('../imgs/svg/af.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+p.tx {
+    line-height: 1.2;
+    margin-bottom: 22px;
+}
+
+.content_buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.content_button {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #6FB587;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content_button:first-child {
+    border: 1px solid rgba(111, 181, 135, 0.15);
+}
+/* Content styles end */
+
+/* Footer styles start */
+footer {
+    background-color: #FAFAFA;
+}
+.logo_pic{
+    width: 213px;
+    height: 50px;
+    margin-bottom: 38px;
+}
+
+.footer_top {
+    padding: 108px 0 64px;
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_title {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    color: #222222;
+}
+
+.footer_inputs {
+    position: relative;
+}
+
+.footer_input {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #555555;
+    padding: 18px;
+    width: 386px;
+}
+
+.footer_button {
+    font-family: 'Red Hat Display';
+    background-color: #402F2C;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+}
+
+.footer_bottom {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fsz a {
+    font-family: 'Red Hat Display';
+    font-size: 40px;
+}
+
+.footer_p {
+    font-family: 'Red Hat Display';
+    font-size: 18px;
+    line-height: 1.78;
+    max-width: 330px;
+
+}
+
+.footer_list_title {
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #222222;
+    margin-bottom: 39px;
+}
+
+.footer_list li a {
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    font-size: 16px;
+    color: #222222;
+    text-decoration: none;
+}
+.footer_list li {
+    margin-bottom: 20px;
+}
+.footer_list {
+    margin-top: 30px;
+}
+
+.footer_pic {
+    display: flex;
+    gap: 30px;
+}
+.footer_pic img {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
